@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% include head.html  %}
+  </head>
+
+  <body>
+
+  <!-- HEADER -->
+  {% include nav.html  %}
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <div class="row">
+      <div class="col s9">
+
+        <h3>{{ page.title }}</h3>
+        <div class="divider"></div>
+        {{ content }}
+
+      </div>
+      <div class="col s3">
+        txt
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER  -->
+  {% include footer.html  %}
+
+  </body>
+</html>
