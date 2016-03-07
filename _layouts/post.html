@@ -16,6 +16,8 @@
       <div class="col l9 s12">
 
         <h3>{{ page.title }}</h3>
+        <p class="date">投稿日: {{ page.date | date: "%Y-%m-%d" }}</p>
+
         <div class="divider"></div>
         {{ content }}
 
