@@ -18,6 +18,13 @@
         <h3>{{ page.title }}</h3>
         <p class="date">投稿日: {{ page.date | date: "%Y-%m-%d" }}</p>
 
+        <ul class="row center-align share-buttons">
+          <li class="col s3"><a href="https://twitter.com/share" class="btn transparent" data-via="syudead" target="_blank">{% include icon-twitter.svg %}</a></li>
+          <li class="col s3"><a href="http://b.hatena.ne.jp/add?mode=confirm&amp;url={{ page.url | prepend: site.url }}&amp;title={{ page.title }}" title="このエントリーをはてなブックマークに追加" class="btn transparent" target="_blank">{% include icon-hatebu.svg %}</a></li>
+          <li class="col s3"></li>
+          <li class="col s3"></li>
+        </ul>
+
         <div class="divider"></div>
         {{ content }}
 
