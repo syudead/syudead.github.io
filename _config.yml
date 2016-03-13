@@ -3,3 +3,5 @@ server: true
 markdown: kramdown
 url: "http://rainyflow.net"
 timezone: Asia/Tokyo
+gems:
+  - jekyll-sitemap
