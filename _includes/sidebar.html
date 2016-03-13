@@ -7,7 +7,14 @@
 </li>
 </ul>
 
+<h2>Tags</h2>
+<div class="collection">
+  {% for tag in site.data.tags %}
+  <a href="/{{ tag.name }}.html" class="collection-item">{{ tag.title }}</a>
+  {% endfor %}
+</div>
+
 <h2>Links</h2>
 <div class="collection">
-  <a href="/archive" class="collection-item">アーカイブ</a>
+  <a href="/archive.html" class="collection-item">アーカイブ</a>
 </div>
