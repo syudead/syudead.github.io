@@ -3,5 +3,7 @@ server: true
 markdown: kramdown
 url: "http://rainyflow.net"
 timezone: Asia/Tokyo
+title: モノを知らないプログラマ
+description: モノを知らないプログラマのブログ
 gems:
   - jekyll-sitemap

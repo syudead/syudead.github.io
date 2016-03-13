@@ -68,3 +68,9 @@ Pageとして作成する。愚直に全記事ループして設定されてあ�
 </div>
 {% endraw %}
 ```
+
+## 参考リンク
+
+* [Jekyllのコードを記事内に表示させる方法](http://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags){:target="_blank"}
+* [Jekyll archive page (without plugins)](http://reyhan.org/2013/03/jekyll-archive-without-plugins.html){:target="_blank"}
+* [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers){:target="_blank"}
