@@ -17,11 +17,11 @@
 
         <h3>{{ page.title }}</h3>
         <p class="date">投稿日: {{ page.date | date: "%Y-%m-%d" }}</p>
-        <ul class="categories">
+        <ul class="tags">
           <li><i class="material-icons">work</i></li>
-          {% for category in page.categories %}
+          {% for tag in page.tags %}
           <li>
-            <a href="#">{{ category }}</a></li>
+            <a href="#">{{ tag }}</a></li>
           {% endfor %}
         </ul>
 

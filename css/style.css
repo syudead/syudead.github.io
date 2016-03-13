@@ -55,30 +55,30 @@ code {
 }
 
 /* HEADER */
-ul.categories {
+ul.tags {
   font-size: .8em;
   margin-top: 0;
 }
-ul.categories i {
+ul.tags i {
   margin-top: 2px;
   font-size: 1.2em;
 }
-ul.categories li {
+ul.tags li {
   float: left;
   margin-right: 15px;
   margin-bottom: 5px;
 }
-ul.categories li:first-child {
+ul.tags li:first-child {
   margin-right: 5px;
 }
-ul.categories li a {
+ul.tags li a {
   color: #47bcc6;
 }
-ul.categories li a:hover {
+ul.tags li a:hover {
   /* color: #039be5; */
   text-decoration: underline;
 }
-ul.categories:after {
+ul.tags:after {
   content: " ";
   display: block;
   clear: both;

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Pagesに記事が反映されない
-categories:
+tags:
   - github-pages
   - jekyll
   - blog

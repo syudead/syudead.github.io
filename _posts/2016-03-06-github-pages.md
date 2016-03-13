@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Pagesまとめ
-categories:
+tags:
   - github-pages
   - jekyll
   - blog

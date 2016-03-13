@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JS無しShareボタンの設置
-categories: sns blog
+tags: sns blog
 ---
 
 SNSのshareボタンを設置したいけど、変なjsを読み込みたくない・・・
