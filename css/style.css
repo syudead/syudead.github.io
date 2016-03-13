@@ -25,7 +25,7 @@ a.title {
 }
 
 /* inline code block */
-code {
+p code {
   background-color: #2b2b2b;
   color: #fff;
   -webkit-border-radius: 5px;
