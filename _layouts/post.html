@@ -17,6 +17,13 @@
 
         <h3>{{ page.title }}</h3>
         <p class="date">投稿日: {{ page.date | date: "%Y-%m-%d" }}</p>
+        <ul class="categories">
+          <li><i class="material-icons">work</i></li>
+          {% for category in page.categories %}
+          <li>
+            <a href="#">{{ category }}</a></li>
+          {% endfor %}
+        </ul>
 
         <ul class="row center-align share-buttons">
           <li class="col s3"><a href="https://twitter.com/share" class="btn transparent" data-via="syudead" target="_blank">{% include icon-twitter.svg %}</a></li>

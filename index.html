@@ -7,6 +7,14 @@ layout: default
     <header>
       <h1><a href="{{ post.url }}" class="title">{{ post.title }}</a></h1>
       <p class="date">投稿日: {{ post.date | date: "%Y-%m-%d" }}</p>
+
+      <ul class="categories">
+        <li><i class="material-icons">work</i></li>
+        {% for category in post.categories %}
+        <li>
+          <a href="#">{{ category }}</a></li>
+        {% endfor %}
+      </ul>
     </header>
 
     <div class="entry">{{ post.content }}</div>

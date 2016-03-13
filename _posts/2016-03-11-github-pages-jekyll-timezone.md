@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Github pagesに記事が反映されない
+title: Github Pagesに記事が反映されない
+categories:
+  - Github Pages
+  - Jekyll
+  - Blog
 ---
 
 日付境界付近に設定した記事が生成されていないので、ためしにTime Zoneを設定してみる
