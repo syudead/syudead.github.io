@@ -2,9 +2,9 @@
 layout: post
 title: Github Pagesまとめ
 categories:
-  - Github Pages
-  - Jekyll
-  - Blog
+  - github-pages
+  - jekyll
+  - blog
 ---
 
 [Github](https://github.com){:target="_blank"}というソースコードのホスティングサービスには
