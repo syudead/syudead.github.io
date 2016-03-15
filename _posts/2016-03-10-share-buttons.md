@@ -2,6 +2,7 @@
 layout: post
 title: JS無しShareボタンの設置
 tags: sns blog
+update_date: 2016-03-16
 ---
 
 SNSのshareボタンを設置したいけど、変なjsを読み込みたくない・・・
@@ -13,7 +14,7 @@ SNSのshareボタンを設置したいけど、変なjsを読み込みたくな�
 ## twitter
 
 ```html
-<a href="https://twitter.com/share" data-via="<twitterのユーザーID>"></a>
+<a href="https://twitter.com/share?text=<記事のタイトル>&amp;hashtags=<タグコンマ区切り>"></a>
 ```
 
 ## はてなブックマーク
@@ -24,5 +25,9 @@ SNSのshareボタンを設置したいけど、変なjsを読み込みたくな�
 
 ## 参考リンク
 
-* [Twitterボタン](https://about.twitter.com/ja/resources/buttons#tweet)
-* [はてなブックマークボタン](http://b.hatena.ne.jp/guide/bbutton)
+* [Twitterボタン](https://about.twitter.com/ja/resources/buttons#tweet){:target="_blank"}
+* [はてなブックマークボタン](http://b.hatena.ne.jp/guide/bbutton){:target="_blank"}
+
+## 2016-03-16
+
+twitterのURLを修正
