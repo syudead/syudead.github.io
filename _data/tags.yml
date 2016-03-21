@@ -5,6 +5,12 @@
   name: ruby
   title: Ruby
 -
+  name: elixir
+  title: Elixir
+-
+  name: phoenix
+  title: Phoenix
+-
   name: github-pages
   title: Github Pages
 -
