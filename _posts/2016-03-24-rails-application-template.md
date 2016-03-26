@@ -2,6 +2,7 @@
 layout: post
 title: Rails Application TemplateでRailsアプリの初期セットアップを一瞬で終わらせる
 tags: rails
+update_date: 2016-03-27
 ---
 
 Railsはウェブアプリケーションを高速で構築するのにとても便利だが、本当に小さなアプリ以外は便利なgemを入れたり初期構築にそれなりに手間がかかる
@@ -15,7 +16,6 @@ Railsはウェブアプリケーションを高速で構築するのにとても
 ## 前提
 
 * rails 4.2.6 インストール済み
-* curlコマンドが使える(ファイルダウンロードに使用)
 * redis serverインストール済み(sidekiqをインストールするため)
 
 ## 使い方
@@ -37,7 +37,11 @@ rails _4.2.6_ new <アプリ名> -T --skip-spring -d postgresql -m https://raw.g
 
 ## 日本語化
 
-`config/application.rb`に日本語設定を追加、日本語のロケールファイルをダウンロードしています
+`config/application.rb`に日本語設定を追加、日本語用のロケールファイルを追加するgemの追加
+
+## 認証
+
+デファクトスタンダード認証gem、deviseを追加して初期セットアップを実行する
 
 ## Rspec
 
@@ -75,3 +79,7 @@ cssフレームワークのbootstrapをセットアップする
 ## 関連記事
 
 * [私のモダンなRails環境]({% post_url 2016-03-15-my-modern-rails-environment %})
+
+## 更新履歴
+
+* Templateの更新に合わせて説明を更新
