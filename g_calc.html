@@ -1,0 +1,38 @@
+---
+layout: default
+title: ガチャ確率金額計算機
+---
+
+<p>
+1回あたりの金額と、出現確率を入力して下のボタンをクリックすると
+<br />
+結果が表示されます
+<br />
+<small>プログラムの都合上試行回数が3万回を超えると処理を中断します</small>
+</p>
+
+<div class="row">
+  <div class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="k" type="text">
+        <label for="k">1回当たりの金額(円)</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="p" type="text">
+        <label for="p">出現確率(%)</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a id="calc" class="waves-effect waves-light btn">計算する！</a>
+
+<div id="error"></div>
+<div class="row" id="result">
+  <div class="col s12">
+    <p>50%の確率で出る金額＝<span id="ret5"></span></p>
+    <p>90%の確率で出る金額＝<span id="ret1"></span></p>
+    <p>98%の確率で出る金額＝<span id="ret2"></span></p>
+  </div>
+</div>
