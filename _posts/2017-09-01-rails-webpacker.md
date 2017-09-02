@@ -42,13 +42,29 @@ sudo apt-get install -y nodejs
 
 Railsコマンド経由でinstall
 
-```
+```sh
 rails webpacker:install
 rails webpacker:install:react
 ```
+
+## webpack-dev-server
+
+開発環境でjavascriptのライブリロードを実現するためにwebpack-dev-serverを導入します
+
+これは単に`./bin/webpack-dev-server`を実行するだけですが、`rails s`と別の画面で実行しなければならず、面倒なためforemanを使用して同時に実行できるようにします
+
+```sh
+# Procfile
+```
+
 
 
 ## 参考リンク
 
 * [yarnpkg.com](https://yarnpkg.com/en/docs/install#linux-tab){:target="_blank"}
 * [nodesource](https://github.com/nodesource/distributions){:target="_blank"}
+* [foreman](https://github.com/ddollar/foreman){:target="_blank"}
+
+## 更新履歴
+
+* 2017-09-02 webpack-dev-serverの記述を追加
