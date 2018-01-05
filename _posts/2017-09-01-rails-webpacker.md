@@ -21,7 +21,7 @@ Rails 5.1のwebpacker gemを使用してReact環境を構築しようとして�
 
 [公式](https://yarnpkg.com/en/docs/install#linux-tab){:target="_blank"}に書いてある実行手順をそのまま実行する
 
-尚、Rails 5.1でyarnがinstallしないままassetのprecompileを実行すると激しく遅かったためwebpackerを使用するしないに関わらず、yarnは導入したほうがよさそうだ
+尚、Rails 5.1でyarnをinstallしないままassetのprecompileを実行すると激しく遅かったため、webpackerを使用するしないに関わらずyarnは導入したほうがよさそうだ
 
 ```sh
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -55,6 +55,7 @@ rails webpacker:install:react
 
 ```sh
 # Procfile
+webpack: ./bin/webpack-dev-server
 ```
 
 
@@ -68,3 +69,4 @@ rails webpacker:install:react
 ## 更新履歴
 
 * 2017-09-02 webpack-dev-serverの記述を追加
+* 2018-01-06 誤字修正
